@@ -23,10 +23,8 @@ function LineChart() {
     return (
         <>
             <div className="chart-container">
-                <Line width={300} 
-                    height={300}
-                    data={chartData}
-                    options={{maintainAspectRatio: false}} />
+                {/* <Line width={300} height={300} data={chartData} options={{maintainAspectRatio: false}} /> */}
+                line chart here
             </div>
         </>
     )
