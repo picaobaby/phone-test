@@ -24,8 +24,9 @@ function LineChart() {
         <>
             <div className="chart-container">
                 {/* <Line width={300} height={300} data={chartData} options={{maintainAspectRatio: false}} /> */}
-                <Line />
-                line chart here
+                {/* <Line /> */}
+                <p>chartjs2, is the issue for blank page, on the phone, </p>
+                <p>try another chart lib</p>
             </div>
         </>
     )
