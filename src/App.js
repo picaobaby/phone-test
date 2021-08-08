@@ -1,15 +1,13 @@
-import 'core-js/es/map';
-import 'core-js/es/set';
-import 'raf/polyfill';
+// import 'core-js/es/map';
+// import 'core-js/es/set';
+// import 'raf/polyfill';
 
 // import * as test from 'react-hook-form'
-import { useFormState } from 'react-use-form-state'; 
-
-
-import {Bar} from 'react-chartjs-2'
+// import { useFormState } from 'react-use-form-state'; 
+// import {Bar} from 'react-chartjs-2'
 // import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";  // this one works
 // import { Button, DatePicker } from 'antd'; /* this one works too */
-import 'antd/dist/antd.css'; 
+// import 'antd/dist/antd.css'; 
 
 import logo from './logo.svg';
 import './App.css';
