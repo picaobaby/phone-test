@@ -25,7 +25,7 @@ function App() {
       <div className="container">
         <MyContext.Provider value={[data, setData]}>
             {/* <LineChart /> */}
-            {/* <TestForm /> */}
+            <TestForm />
         </MyContext.Provider>
       </div>    
     </div>
