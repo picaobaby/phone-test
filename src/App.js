@@ -19,14 +19,13 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>Edit <code>src/App.js</code> and save to reload.</p>
       </header>
     
       <div className="container">
         <MyContext.Provider value={[data, setData]}>
             <LineChart />
-            <TestForm />
+            {/* <TestForm /> */}
         </MyContext.Provider>
       </div>    
     </div>
