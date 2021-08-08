@@ -24,6 +24,7 @@ function LineChart() {
         <>
             <div className="chart-container">
                 {/* <Line width={300} height={300} data={chartData} options={{maintainAspectRatio: false}} /> */}
+                <Line />
                 line chart here
             </div>
         </>
