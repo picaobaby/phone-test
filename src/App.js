@@ -2,7 +2,7 @@
 // import 'core-js/es/set';
 // import 'raf/polyfill';
 
-// import * as test from 'react-hook-form'
+import {useForm} from 'react-hook-form'
 // import { useFormState } from 'react-use-form-state'; 
 // import {Bar} from 'react-chartjs-2'
 // import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";  // this one works
