@@ -4,7 +4,7 @@
 
 import {useForm} from 'react-hook-form'
 // import { useFormState } from 'react-use-form-state'; 
-// import {Bar} from 'react-chartjs-2'
+import {Bar} from 'react-chartjs-2'
 // import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";  // this one works
 // import { Button, DatePicker } from 'antd'; /* this one works too */
 // import 'antd/dist/antd.css'; 
@@ -18,6 +18,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Edit <code>src/App.js</code> and save to reload.</p>
+        <p>chartjs import added</p>
 
         {/* <Button type="primary">PRESS ME</Button> */}
         {/* <DatePicker placeholder="select date" /> */}
