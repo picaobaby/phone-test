@@ -1,10 +1,11 @@
-// import 'core-js/es/map';
-// import 'core-js/es/set';
-// import 'raf/polyfill';
+import React, {useState} from 'react'
+import MyContext from './context/MyContext'
+import TestForm from './components/TestForm'
+import LineChart from './components/LineChart'
 
-import {useForm} from 'react-hook-form'
+// import {useForm} from 'react-hook-form'
 // import { useFormState } from 'react-use-form-state'; 
-import {Bar} from 'react-chartjs-2'
+// import {Bar} from 'react-chartjs-2'
 // import {BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";  // this one works
 // import { Button, DatePicker } from 'antd'; /* this one works too */
 // import 'antd/dist/antd.css'; 
@@ -13,18 +14,22 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+  const [data, setData] = useState({mon: "20", tue: "30", wed: "11", thu: "44", fri: "60", sat: "22", sun:"5"})
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>Edit <code>src/App.js</code> and save to reload.</p>
-        <p>chartjs import added</p>
-
-        {/* <Button type="primary">PRESS ME</Button> */}
-        {/* <DatePicker placeholder="select date" /> */}
       </header>
+    
+      <div className="container">
+        <MyContext.Provider value={[data, setData]}>
+            <LineChart />
+            <TestForm />
+        </MyContext.Provider>
+      </div>    
     </div>
   );
 }
-
-export default App;
+export default App
